@@ -10,7 +10,8 @@ exports.handle = function(e, ctx, cb) {
   const body = {
     from: process.env.FROM_NUMBER,
     to: e.to,
-    text: e.text
+    text: e.text,
+    media: `https://s3-us-west-2.amazonaws.com/blake-images/%2B${e.from.slice(1, e.from.length)}`
   };
 
   client.Message.send(body)

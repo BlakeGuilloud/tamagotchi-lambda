@@ -7,7 +7,7 @@ exports.handle = function(e, ctx, cb) {
       phone: e.from,
       pet: e.pet,
       lastAction: e.lastAction,
-      hunger: e.hunger,
+      hunger: e.hunger
     },
     TableName: 'users'
   };
