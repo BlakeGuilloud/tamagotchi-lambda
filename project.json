@@ -1,0 +1,8 @@
+{
+  "name": "Tamagotchi",
+  "description": "Tamagotchi game through SMS",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::055809122680:role/Tamagotchi_lambda_function",
+  "environment": {}
+}
